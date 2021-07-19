@@ -20,12 +20,12 @@ import { random } from 'gsap/src/all'
 function MyApp({ Component, pageProps }: AppProps){
 
   useEffect(() => {
-    gsap.from(".particles", {opacity: 0, delay: 3, ease: "power1.out", duration: 4})
+    // gsap.from(".particles", {opacity: 0, delay: 3, ease: "power1.out", duration: 4})
   }, [])
   return (
   <Layout>
     <Component {...pageProps} />
-    <Particles options={{
+    {/* <Particles options={{
           background: {
             color: {
               value: "#000",
@@ -123,7 +123,7 @@ function MyApp({ Component, pageProps }: AppProps){
             },
           },
           detectRetina: true,
-        }} className="particles"/>
+        }} className="particles"/> */}
   </Layout>
   )
 }

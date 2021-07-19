@@ -1,0 +1,30 @@
+.container {
+    text-align: center;
+    margin-top: 4em;
+}
+
+.container h1 {
+    border-bottom: 2px solid red;
+    width: fit-content;
+    margin: auto;
+}
+
+.container section {
+    margin: auto;
+    margin-top: 4rem;
+    font-size: 2em;
+    width: fit-content;
+}
+.container section > *:not(:first-child){
+    color: red;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.container section *:not(:first-child):hover{
+    color: white;
+}
+
+.container section > * {
+    margin: 0 20px;
+}

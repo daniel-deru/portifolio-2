@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from "next/link"
 import styles from '../styles/Home.module.css'
 
 //import React
@@ -13,7 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     const div = divRef.current?.children
-    const timeline = gsap.timeline({delay: 1.5, defaults: {duration: 1}})
+    const timeline = gsap.timeline({ defaults: {duration: 1}})
     timeline.from(div[0], {opacity: 0, x: -30})
             .from([div[1], div[2]], {opacity: 0, x: 30}, "-=1")
             .from(buttonRef.current, {opacity: 0, y: 20}, "-=1")
@@ -30,7 +31,7 @@ export default function Home() {
         <div>Your Friendly Neighbourhood</div>
         <div className={`${styles.white} ${styles.dev}`}>Software Developer</div>
       </main>
-      <button className={styles.button} ref={buttonRef}>Projects</button>
+      <button className={styles.button} ref={buttonRef}><Link href="/projects">Projects</Link></button>
     </div>
   )
 }

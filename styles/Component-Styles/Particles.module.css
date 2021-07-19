@@ -1,3 +1,5 @@
 .particles {
     position: absolute;
+    opacity: 0;
+    display: none;
 }
