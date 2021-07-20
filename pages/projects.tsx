@@ -11,6 +11,7 @@ const projects = () => {
     return (
         <div className={styles.container}>
             <section>
+                <Image src={crypto} layout="fill"/>
                 <div>
                     <h3>Cryptgraph</h3>
                     <ul>
@@ -22,6 +23,7 @@ const projects = () => {
                     </ul>
                     <a href="#">More</a>
                 </div>
+                
             </section>
            <section>
                 <div>

@@ -12,36 +12,25 @@
 }
 
 .container section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: fit-content;
+    position: relative;
 }
 
 .container section div{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 30vw;
     height: 30vh;
     text-align: center;
+    position: relative
 }
 
 
-.container section:nth-child(1) div{
-    background-image: url("../public/crypto1.png");
-}
-.container section:nth-child(2) div{
-    background-image: url("../public/protrac1.png");
-}
-.container section:nth-child(3) div{
-    background-image: url("../public/pokedex1.png");
-}
-.container section:nth-child(4) div{
-    background-image: url("../public/paint1.png");
-}
-
-.container div * {
+/* .container section > div  {
     opacity: 0;
 }
 
-.container div:hover * {
+.container div:hover  {
     opacity: 1;
-}
+} */
