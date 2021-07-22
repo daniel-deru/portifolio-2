@@ -1,0 +1,56 @@
+{
+    "projects": [
+        {
+            "name": "Cryptograph",
+            "stack": ["HTML", "CSS", "JavaScript", "NodeJS", "Express"],
+            "github": "https://github.com/daniel-deru/project-cryptograph",
+            "host": "http://cryptograph-encoder-decoder.herokuapp.com",
+            "description": "This was a really fun project and deals with encoding and decoding secret messages. You can choose from several different bases like morse or binary. You can also enter a secret key (optional) but don't lose it or your message will never be decoded!! Check the info page on the website for more details.",
+            "images": [
+                "../public/crypto1.png",
+                "../public/crypto2.png",
+                "../public/crypto3.png"
+            ]
+
+        },
+        {
+            "name": "ProTrac",
+            "stack": ["ReactJS", "CSS", "JavaScript", "NodeJS", "Express", "MySQL"],
+            "github": "https://github.com/daniel-deru/protrac",
+            "host": "http://protrac08.herokuapp.com",
+            "description": "This is a fullstack web app built for monitoring your productivity. I realy enjoyed working on this since it uses a database and proper server side logic. I enjoy putting things together and to make them work seamlessly. The goal was to make a simple UI that is easy to use but still performs all the functions for the app to work. this project was approached with the idea of future expandibility for when I want to add features easily without changing the base design.",
+            "images": [
+                "../public/protrac1.png",
+                "../public/protrac2.png",
+                "../public/protrac3.png"
+            ]
+
+        },
+        {
+            "name": "Pokedex",
+            "stack": ["HTML", "CSS", "JavaScript", "NodeJS", "Express", "Axios"],
+            "github": "https://github.com/daniel-deru/project-pokedex",
+            "host": "http://pokedex0813.herokuapp.com",
+            "description": "This website uses the pokedex API and uses several API calls that are connected. the focus is on simplicity and working with API's. I chose this particular API because it's a fun idea to play with and the API itself is very robust and complete even though that adds an extra layer of complexity to the logic.",
+            "images": [
+                "../public/pokedex1.png",
+                "../public/pokedex2.png",
+                "../public/pokedex3.png"
+            ]
+
+        },
+        {
+            "name": "Paint Magic",
+            "stack": ["ReactJS", "CSS", "JavaScript", "NodeJS", "Express"],
+            "github": "https://github.com/daniel-deru/paintmagic",
+            "host": "http://paintmagic.herokuapp.com",
+            "description": "This website focuses on design and UI. It's a fictional website for an art school. this website was made with a mobile first approach and encorporates 3D interactive animations and other popular design trends.",
+            "images": [
+                "../public/paint1.png",
+                "../public/paint1.png",
+                "../public/paint1.png"
+            ]
+
+        }
+    ]
+}
